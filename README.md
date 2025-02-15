@@ -97,7 +97,7 @@ After the crawler runs successfully, check the tables in **AWS Glue Console** un
 
 ### **Step 4: Automating Transformation with AWS Glue Job**
 AWS Glue Job automates **data transformation and loading into Redshift**.
-![](data_model.png)
+![](dimensional_model.png)
 
 #### **4.1 Create AWS Glue Job**
 1. Navigate to **AWS Glue Console** → **Jobs** → **Create Job**.
