@@ -3,7 +3,7 @@
 
 ## 📌 Project Overview
 This project builds an **end-to-end ETL pipeline** using **AWS Athena, Amazon S3, AWS Glue, Amazon Redshift**, and **Power BI for reporting**. The objective is to **automate the extraction, transformation, and loading (ETL) of COVID-19 data** into **Amazon Redshift**, enabling seamless analytics and visualization.
-
+![](Architecture.png)
 ### ✅ **Workflow Steps**
 1. **Data Extraction**: Query raw data stored in **Amazon S3** using **AWS Athena**.
 2. **Data Crawling & Schema Detection**: Use **AWS Glue Crawler** to detect schema.
@@ -25,7 +25,9 @@ This project builds an **end-to-end ETL pipeline** using **AWS Athena, Amazon S3
 - **Boto3** – AWS SDK for programmatic access.
 
 ---
+Data: https://registry.opendata.aws/aws-covid19-lake/
 
+![](ERmodel.png)
 ## 📌 Steps & Implementation
 
 ### **Step 1: Setup & Configuration**
